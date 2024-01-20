@@ -19,6 +19,8 @@
             <x-tweet.list :tweets="$tweets"></x-tweet.list>
         </x-layout.single>
 
+        {{-- コードを付け加えます --}}
+
     </x-layout>
     {{-- <div>
         <p>投稿</p>
