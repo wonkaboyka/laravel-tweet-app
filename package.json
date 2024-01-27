@@ -2,7 +2,8 @@
     "private": true,
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "development": "sail npm run development"
     },
     "devDependencies": {
         "@tailwindcss/forms": "^0.5.2",
@@ -13,5 +14,8 @@
         "postcss": "^8.4.27",
         "tailwindcss": "^3.4.1",
         "vite": "^4.0.0"
+    },
+    "dependencies": {
+        "laravel-mix": "^6.0.49"
     }
 }
